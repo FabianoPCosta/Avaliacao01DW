@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem do Som</title>
+
+    <!-- Arquivo CSS do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #646464;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+
+        .navbar-toggler {
+            background-color: #FFFFFF;
+        }
+
+        /* Estilo personalizado para o container do card de texto convidativo */
+        .custom-container {
+            background-color: #000000;
+            padding-left: 8rem;
+            padding-right: 8rem;
+            margin-top: 80px;
+        }
+
+        /* Estilo personalizado para os cards */
+        .custom-card {
+            background-color: #646464;
+            border: none;
+            color: #646464;
+        }
+
+        /* Estilo para os cards de depoimento */
+        .testimonial-card {
+            background-color: #646464;
+            border: 1px solid #646464;
+            color: #000000;
+        }
+
+        /* Estilo para o ícone do WhatsApp */
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar cabeçalho -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Origem do Som</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#inicio">INÍCIO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#cursos">CURSOS</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contato">CONTATO</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<!-- Carrossel introdutório -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/bateriadark2.jpg" class="d-block w-100" alt="Bateria">
+        </div>
+        <div class="carousel-item">
+            <img src="/violaodark.jpg" class="d-block w-100" alt="Gaita">
+        </div>
+        <div class="carousel-item">
+            <img src="/gaitadark.png" class="d-block w-100" alt="Violão">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<br>
+<br>
+<br>
+<!-- Card de texto convidativo -->
+<div id="inicio" class="container-fluid custom-container">
+    <div class="row">
+        <div class="col-md-3 align-self-center text-center mb-4 mb-md-0">
+            <img src="/bateria icone.png" class="img-fluid" alt="Bateria" style="max-width: 40%;">
+        </div>
+        <div class="col-md-9">
+            <div class="card custom-card">
+                <div class="card-body">
+                    <p class="card-text">
+                        Você é apaixonado pela música das tradicionais bandinhas do sul do país? Quer aprender a tocar os
+                        instrumentos que fazem parte desse rico cenário musical? Então, você veio ao lugar certo! No "Origem
+                        do Som," oferecemos aulas particulares de gaita, violão e bateria para todos os níveis de habilidade,
+                        desde iniciantes até músicos experientes em busca de aprimoramento.
+
+                        Nossos instrutores altamente qualificados e apaixonados pela música sulista estão prontos para
+                        guiá-lo em uma jornada musical única. Com a gaita, você poderá tocar as melodias vibrantes das bandinhas
+                        com maestria. No violão, você dominará os acordes característicos da música tradicional, enquanto a
+                        bateria permitirá que você acrescente ritmo e energia às suas composições.
+
+                        Aprenda com quem entende e compartilha sua paixão pela cultura musical do sul. Descubra os segredos por
+                        trás dos ritmos envolventes e das harmonias emocionantes que tornam as bandinhas tão especiais. Venha se
+                        juntar a nós no "Origem do Som" e embarque em uma jornada musical única e repleta de tradição!
+
+                        Não perca tempo. Reserve agora sua aula particular e comece a tocar as músicas que aquecem o coração do
+                        sul do Brasil. Sintonize-se com a "Origem do Som" e faça parte da tradição musical que encanta
+                        gerações.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Depoimentos -->
+<div class="container-fluid custom-container">
+  <h2 class="text-center text-white">Faça como os Originários abaixo!</h2>
+<br>
+<br>
+<br>
+<br>
+  <div class="row">
+      <!-- Depoimento 1 -->
+      <div class="col-md-3 align-self-center text-center mb-4 mb-md-0">
+          <img src="/mulher feliz.png" class="img-fluid" alt="Mulher Feliz" style="max-width: 60%;">
+      </div>
+      <div class="col-md-3">
+          <div class="card custom-card testimonial-card">
+              <div class="card-body">
+                  <p class="card-text">
+                      <strong>Solange G. T.</strong><br>
+                      <em>"A aula de Violão foi um divisor de águas na minha carreira de Violeira amadora."</em>
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!-- Depoimento 2 (Replicado) -->
+      <div class="col-md-3 align-self-center text-center mb-4 mb-md-0">
+          <img src="/violao fundo azul.png" class="img-fluid" alt="Mulher Feliz" style="max-width: 60%;">
+      </div>
+      <div class="col-md-3">
+          <div class="card custom-card testimonial-card">
+              <div class="card-body">
+                  <p class="card-text">
+                      <strong>Carlos B. A.</strong><br>
+                      <em>"já havia concluido o curso de Gaita, agora com o desconto no curso de violão, embarco em um novo desafio!!! ."</em>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Modais para cursos -->
+<!-- Cursos -->
+<div id="cursos" class="container mt-5" style="background-color: #646464;">
+<br>
+<br>
+  <h2 class="text-center text-white">CURSOS:</h2>
+<br>
+<br>
+  <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+          <div class="card custom-card" style="width: 18rem; background-color: #646464;">
+              <img src="/gaiteiro cinza .jpg" class="card-img-top" alt="gaiteiro">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Curso Noturno de Gaita</h5>
+                  <p class="card-text">Aulas individuais de 1 hora de duração mais exercícios para fixação.</p>
+                  <a href="mailto:fabianopaulocosta@hotmail.com" class="btn btn-primary">Enviar- Email</a>
+                  <a href="https://api.whatsapp.com/send?phone=5549999102041&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Curso%20de%20Gaita%21" class="btn btn-success" target="_blank">Falar agora!</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card custom-card" style="width: 18rem; background-color: #646464;">
+              <img src="/baterista cinza.jpg" class="card-img-top" alt="bateria">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Curso Matutino de Bateria</h5>
+                  <p class="card-text">Aulas individuais de 1 hora de duração mais exercícios para fixação.</p>
+                  <a href="mailto:fabianopaulocosta@hotmail.com" class="btn btn-primary">Enviar- Email</a>
+                  <a href="https://api.whatsapp.com/send?phone=5549999102041&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Curso%20de%20Bateria%21" class="btn btn-success" target="_blank">Falar agora!</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card custom-card" style="width: 18rem; background-color: #646464;">
+              <img src="/violeiro cinza.jpg" class="card-img-top" alt="violeiro">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Curso Matutino de Viola</h5>
+                  <p class="card-text">Aulas individuais de 1 hora de duração mais exercícios para fixação.</p>
+                  <a href="mailto:fabianopaulocosta@hotmail.com" class="btn btn-primary">Enviar- Email</a>
+                  <a href="https://api.whatsapp.com/send?phone=5549999102041&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Curso%20de%20Viola%21" class="btn btn-success" target="_blank">Falar agora!</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Vídeos do YouTube -->
+<div class="container">
+  <h2 class=" text-white">Inspire-se em quem já tem o domínio!</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Container para os vídeos -->
+  <div class="video-container">
+      <!-- Vídeo 1 do YouTube incorporado -->
+      <iframe src="https://www.youtube.com/embed/EtTbS-KdcrE" frameborder="0" allowfullscreen></iframe>
+      
+      <!-- Vídeo 2 do YouTube incorporado -->
+      <iframe src="https://www.youtube.com/embed/qF7iV_tArAU" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!-- Inclua o arquivo CSS do Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilo personalizado para o contêiner de texto de contato */
+        .contato-container {
+            font-size: 1rem; /* Tamanho da fonte padrão */
+        }
+
+        /* Estilo personalizado para o mapa */
+        .map-container {
+            margin-top: 2rem; /* Margem superior para separar do conteúdo anterior */
+        }
+
+        iframe {
+            width: 100%; /* Preencher largura do contêiner */
+            height: 300px; /* Altura fixa */
+            border: 0; /* Remover borda do iframe */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contato -->
+    <div id="contato" class="container mt-5">
+      <h2 class="display-4">Contato</h2>
+      <!-- Conteúdo da seção de contato aqui -->
+      <div class="contato-container">
+          <p>Entre em contato com Fabiano Dev para obter mais informações:</p>
+          <ul class="list-unstyled">
+              <li class="fs-5">Telefone: 49 99910-2041</li>
+              <li class="fs-5">E-mail: <a href="mailto:fabianopaulocosta@hotmail.com">fabianopaulocosta@hotmail.com</a></li>
+              <li class="fs-5">Skype: fabianopaulocosta</li>
+          </ul>
+      </div>
+  </div>
+
+    <!-- Mapa fixo no final do site -->
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14202.765012520236!2d-52.599385!3d-27.134533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b6a18142c0a3%3A0x8b11ef4e1a2c80bd!2sUnoesc%20Chapec%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1694478645481!5m2!1spt-BR!2sbr"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Título</title>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seu Título</title>
+    
+        <!-- fundo dark -->
+        <style>
+          
+            body {
+                background-color: #000; /* Cor de fundo preto */
+                color: #FFF; /* Cor do texto branco */
+            }
+    
+            /* Estilo ícone do WhatsApp */
+            .whatsapp-icon {
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                z-index: 1000;
+            }
+    
+            /* tamanho do ícone */
+            .whatsapp-icon img {
+                width: 120px; /* Largura aumentada */
+                height: 120px; /* Altura aumentada */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Ícone do WhatsApp -->
+        <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=5549999102041&text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos%21" target="_blank" rel="noopener noreferrer">
+            <img src="/aquele violaozinho.png" alt="Ícone do WhatsApp">
+        </a>
+  
+
+
+
+
+
+    </html>
+    
+
